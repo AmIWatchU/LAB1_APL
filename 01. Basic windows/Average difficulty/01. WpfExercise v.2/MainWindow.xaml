@@ -5,12 +5,12 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:_01._WpfExercise_v._2"
         mc:Ignorable="d"
-        Title="George Orwell" Height="400" Width="400" WindowStartupLocation="CenterScreen">
+        Title="Девід Суше" Height="400" Width="400" WindowStartupLocation="CenterScreen">
 
     <StackPanel Margin="20">
 
         <!-- start with title for Top Trumps card-->
-        <Label HorizontalAlignment="Stretch" Content="Top 100 Authors ==> GEORGE ORWELL" BorderBrush="Black" 
+        <Label HorizontalAlignment="Stretch" Content="Топ 100 акторів ==> Девід Суше" BorderBrush="Black" 
                BorderThickness="1" Background="Bisque" HorizontalContentAlignment="Center" FontWeight="Bold" />
 
         <!-- now have image on left, scores on right -->
@@ -19,23 +19,23 @@
 
                 <!-- image of George Orwell -->
                 <Border BorderBrush="Black" BorderThickness="1" Margin="20">
-                    <Image Width="140" Source="/Res/Orwell.jpg" />
+                    <Image Width="140" Source="/Res/David_Suchet.jpg" />
                 </Border>
+                <StackPanel RenderTransformOrigin="0.408,0.493" Height="194">
 
-                <!-- his scores in vertical panel -->
-                <StackPanel Margin="20" VerticalAlignment="Center">
-
-                    <Label Content="Writing style - 7" FontStyle="Italic" Margin="0,0,0,20" />
-                    <Label Content="Characterisation - 9" FontStyle="Italic" Margin="0,0,0,20" />
-                    <Label Content="Influence - 10" FontStyle="Italic" Margin="0,0,0,20" />
-                    <Label Content="Readbility- 8" FontStyle="Italic" Margin="0,0,0,20" />
+                    <Label Content="Акторська гра - 9" FontStyle="Italic" Margin="0,0,0,20" />
+                    <Label Content="Харизматичність - 9" FontStyle="Italic" Margin="0,0,0,20" />
+                    <Label Content="Ораторське мистецтво - 8" FontStyle="Italic" Margin="0,0,0,20" />
+                    <Label Content="Талановитість- 9" FontStyle="Italic" Margin="0,0,0,20" />
 
                 </StackPanel>
+
+                <!-- his scores in vertical panel -->
 
             </StackPanel>
         </Border>
 
-        <TextBlock Text="George Orwell's major works are 1984, a frightening portrayal of a totalitarian future state, and Animal Farm, an allegory for the Russian revolution and its aftermath." 
+        <TextBlock Text="Де́від Суше — британський актор театру і кіно, виконав головну роль Еркюля Пуаро в телесеріалі Пуаро Агати Крісті. " 
                FontStyle="Italic" HorizontalAlignment="Center" TextWrapping="WrapWithOverflow" TextTrimming="WordEllipsis" />
 
     </StackPanel>
