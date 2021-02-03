@@ -25,12 +25,15 @@
             <Border BorderBrush="Black" BorderThickness="1" Margin="10" Height="80" Width="80">
                 <Image Source="/Res/pexels-kostiantyn-stupak-190340.jpg" Stretch="Fill"  />
             </Border>
-            
-            
-            
+            <Border BorderBrush="Black" BorderThickness="1" Margin="10" Height="80" Width="80">
+                    <Image Source="/Res/pexels-pixabay-210307.jpg" Stretch="Fill"  />
+             </Border>
 
 
-        </StackPanel>
+
+
+            </StackPanel>
+            
             <StackPanel Orientation="Horizontal">
 
                 <Border BorderBrush="Black" BorderThickness="1" Margin="10" Height="80" Width="80">
@@ -41,6 +44,9 @@
                 </Border>
                 <Border BorderBrush="Black" BorderThickness="1" Margin="10" Height="80" Width="80">
                     <Image Source="/Res/pexels-pixabay-459225.jpg" Stretch="Fill"  />
+                </Border>
+                <Border BorderBrush="Black" BorderThickness="1" Margin="10" Height="80" Width="80">
+                    <Image Source="/Res/pexels-james-wheeler-414612.jpg" Stretch="Fill"  />
                 </Border>
             </StackPanel>
         </StackPanel>
